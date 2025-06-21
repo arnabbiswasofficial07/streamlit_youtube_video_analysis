@@ -1,17 +1,12 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
 import re
 import matplotlib.pyplot as plt
-import seaborn as sns
 import plotly.express as px
-import plotly.graph_objects as go
 from wordcloud import WordCloud
 from textblob import TextBlob
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import requests
-import json
-from datetime import datetime
 import warnings
 
 warnings.filterwarnings('ignore')
